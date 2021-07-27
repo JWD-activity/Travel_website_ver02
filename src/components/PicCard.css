@@ -1,0 +1,17 @@
+.img__left {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.img__right {
+  position: absolute;
+  top: 5%;
+}
+
+.img__box {
+  padding: 1.5rem;
+  width: 60%;
+  background-color: #fff;
+  box-shadow: 0 4px 16px rgb(16 29 45 / 8%);
+}
