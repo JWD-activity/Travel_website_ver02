@@ -1,9 +1,16 @@
 import React from 'react';
 
-function Benefit(props) {
+function Benefit() {
   return (
-    <section ref={props.sectionRef} class='section-features mx-5'>
-      Section
+    <section
+      class='section-features mx-5'
+      style={{
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/water.jpg')`,
+      }}
+    >
+      <div className='row'>
+        <div className='section-features--box'></div>
+      </div>
     </section>
   );
 }
