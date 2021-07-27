@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import Header from '../Header';
-import About from './About';
-import Footer from '../Footer';
+// import About from './About';
+// import Footer from '../Footer';
 // import { useIntersection } from 'react-use';
 // import gsap from 'gsap';
 
@@ -34,10 +34,8 @@ function Home() {
   return (
     <div>
       <Header />
-      <main>
-        <About />
-      </main>
-      <Footer />
+      <main>{/* <About /> */}</main>
+      {/* <Footer /> */}
     </div>
   );
 }
