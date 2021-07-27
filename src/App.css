@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #34d399;
+}
+
+.section-about {
+  background-color: #f3f5f8;
+  margin-top: -25vh;
+  padding: 25rem 0 8rem 0;
+}
+
+.gallery__box {
+  position: relative;
+}
+
+.mb__large {
+  margin-bottom: 8rem;
+}
+
+.mr__medium {
+  margin-right: 5.5rem;
+}
+
+.ml__medium {
+  margin-left: 5.5rem;
+}
