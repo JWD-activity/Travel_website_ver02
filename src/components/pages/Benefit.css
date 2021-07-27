@@ -1,0 +1,11 @@
+.section-features {
+  display: grid;
+  align-items: center;
+
+  transform: skewY(-7deg);
+  margin-top: -8rem;
+  background-size: cover;
+  height: 60rem;
+  z-index: -10;
+  /* margin-top: 10rem; */
+}

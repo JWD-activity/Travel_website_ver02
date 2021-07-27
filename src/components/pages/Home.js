@@ -37,7 +37,7 @@ function Home() {
       <Header />
       <main>
         <About sectionRef={sectionRef} />
-        <Benefit sectionRef={sectionRef} />
+        <Benefit />
       </main>
 
       <Footer />

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Benefit.css';
 
 function Benefit() {
   return (
