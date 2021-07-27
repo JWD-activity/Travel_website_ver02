@@ -15,7 +15,7 @@ function Home() {
     rootMargin: '0px',
     threshold: 0.5,
   });
-  console.log(intersection);
+
   const fadeIn = (element) => {
     gsap.to(element, {
       duration: 1,

@@ -1,21 +1,18 @@
 import { Card } from 'react-bootstrap';
 import React from 'react';
+import './TextCard.css';
 
-function textCard() {
+function TextCard(props) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card className='card__box text-center p-5'>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className='mb-2 text-muted'>Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Card.Link href='#'>Card Link</Card.Link>
-        <Card.Link href='#'>Another Link</Card.Link>
+        <i className={`card__icon ${props.icon}`}></i>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Subtitle className=' card__title'>{props.subtitle}</Card.Subtitle>
+        <Card.Text className=' card__text'>{props.text}</Card.Text>
       </Card.Body>
     </Card>
   );
 }
 
-export default textCard;
+export default TextCard;
