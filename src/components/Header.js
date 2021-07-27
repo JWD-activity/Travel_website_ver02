@@ -2,13 +2,12 @@ import React from 'react';
 import './Header.css';
 import './Button.css';
 import Button from './Button';
-
 function Header() {
   return (
     <header
       className='header position-relative text-center'
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/images/bg-1.jpg'})`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/bg-1.jpg')`,
       }}
     >
       {/* <video src='/videos/beach.mp4' autoPlay loop muted /> */}

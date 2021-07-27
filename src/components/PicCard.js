@@ -7,7 +7,7 @@ function PicCard(props) {
     <figure>
       <img
         className={`img__box ${classname}`}
-        src={props.src}
+        src={process.env.PUBLIC_URL + props.src}
         alt={props.alt}
       />
     </figure>

@@ -47,12 +47,12 @@ function About(props) {
         </div>
         <div className='col-lg-5 position-relative fadeIn'>
           <PicCard
-            src='./images/traveler03-medium.jpg'
+            src='/images/traveler03-medium.jpg'
             alt='Traveler in New Zealand'
             direction='right'
           />
           <PicCard
-            src='./images/traveler02-medium.jpg'
+            src='/images/traveler02-medium.jpg'
             alt='Traveler in Tonariro National Park'
             direction='left'
           />
