@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import './Button.css';
-import Button from './Button';
+import '../Button.css';
+import Button from '../Button';
 function Header() {
   return (
     <header
