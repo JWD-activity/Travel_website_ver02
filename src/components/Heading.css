@@ -1,0 +1,27 @@
+.heading__basic {
+  font-family: 'Playfair Display', serif;
+}
+
+.heading__primary {
+}
+
+.heading__secondary {
+  font-size: 3.5rem;
+  font-weight: 900;
+  background-image: linear-gradient(to right, #34d399, #101d2d 55%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heading__tertiary {
+  margin-bottom: 2rem;
+  font-size: 2.7rem;
+  letter-spacing: -0.1px;
+  font-weight: 700;
+}
+
+.heading__p {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
