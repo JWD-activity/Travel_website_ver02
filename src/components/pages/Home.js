@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import About from './About';
-import Header from '../Header';
-import Footer from '../Footer';
+import Header from '../UI/Header';
+import Footer from '../UI/Footer';
 import Benefit from './Benefit';
 
 import { useIntersection } from 'react-use';
