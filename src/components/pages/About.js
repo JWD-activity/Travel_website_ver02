@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from '../Heading';
+import Content from '../Content';
 import Paragraph from '../Paragraph';
 import PicCard from '../PicCard';
 
@@ -7,7 +7,7 @@ function About(props) {
   return (
     <section ref={props.sectionRef} className='section-about mx-5'>
       <div className='row justify-content-evenly'>
-        <Heading
+        <Content
           classname='mb__large fadeIn'
           heading='Exciting tours for adventurous people'
           sizes='secondary'
@@ -15,7 +15,7 @@ function About(props) {
           initType={true}
         />
         <div className='col-lg-5 fadeIn'>
-          <Heading
+          <Content
             heading={`You're going to fall in love with nature`}
             sizes='tertiary'
             align='left'
@@ -30,7 +30,7 @@ function About(props) {
             spaceing='right'
           />
 
-          <Heading
+          <Content
             heading='Live adventures like you never have before'
             sizes='tertiary'
             align='left'

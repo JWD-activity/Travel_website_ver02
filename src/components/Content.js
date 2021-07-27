@@ -1,7 +1,7 @@
 import React from 'react';
-import './Heading.css';
+import './Content.css';
 
-function Heading(props) {
+function Content(props) {
   return (
     <h2
       className={`${props.classname || ''} text-${props.align} ${
@@ -13,4 +13,4 @@ function Heading(props) {
   );
 }
 
-export default Heading;
+export default Content;
