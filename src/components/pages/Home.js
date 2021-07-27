@@ -34,7 +34,8 @@ function Home() {
   return (
     <div>
       <Header />
-      <main>{/* <About /> */}</main>
+      {/* <Header />
+      <main></main> */}
       {/* <Footer /> */}
     </div>
   );
