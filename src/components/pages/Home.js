@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
-import Header from '../Header';
-// import About from './About';
+import About from './About';
 // import Footer from '../Footer';
 // import { useIntersection } from 'react-use';
 // import gsap from 'gsap';
@@ -32,12 +31,9 @@ function Home() {
   // sectionRef={sectionRef}
 
   return (
-    <div>
-      <Header />
-      {/* <Header />
-      <main></main> */}
-      {/* <Footer /> */}
-    </div>
+    <main>
+      <About />
+    </main>
   );
 }
 export default Home;
