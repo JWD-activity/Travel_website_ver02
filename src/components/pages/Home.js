@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import About from './About';
 import Header from '../Header';
 import Footer from '../Footer';
+import Benefit from './Benefit';
+
 import { useIntersection } from 'react-use';
 import gsap from 'gsap';
 
@@ -35,7 +37,9 @@ function Home() {
       <Header />
       <main>
         <About sectionRef={sectionRef} />
+        <Benefit sectionRef={sectionRef} />
       </main>
+
       <Footer />
     </div>
   );
