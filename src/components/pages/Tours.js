@@ -2,9 +2,9 @@ import React from 'react';
 import './Tours.css';
 function Tours() {
   return (
-    <section class='section-tours'>
-      <div class='row'>
-        <h2 class='heading-secondary'>Most popular tours</h2>
+    <section className='section-tours'>
+      <div className='row'>
+        <h2 className='heading-secondary'>Most popular tours</h2>
       </div>
     </section>
   );
