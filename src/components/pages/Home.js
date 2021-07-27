@@ -3,6 +3,7 @@ import About from './About';
 import Header from '../UI/Header';
 import Footer from '../UI/Footer';
 import Benefit from './Benefit';
+import Tours from './Tours';
 
 import { useIntersection } from 'react-use';
 import gsap from 'gsap';
@@ -37,7 +38,8 @@ function Home() {
       <Header />
       <main>
         <About sectionRef={sectionRef} />
-        <Benefit sectionRef={sectionRef} />
+        <Benefit />
+        <Tours />
       </main>
 
       <Footer />
