@@ -4,9 +4,6 @@
   min-height: 52rem;
 }
 
-.price__img {
-}
-
 .tour__item {
   width: 100%;
   height: 52rem;
@@ -14,22 +11,12 @@
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-
-  /* background-image: linear-gradient(to right bottom, #34d399, #101d2d); */
 }
 
-.tour__figure {
+.tour__box {
   width: 100%;
   height: 20rem;
   background-size: cover;
   top: 0;
   left: 0;
-}
-
-.tour__img {
-  /* width: 100%;
-  background-size: cover;
-  height: 20rem;
-  top: 0;
-  left: 0; */
 }
