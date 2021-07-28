@@ -3,9 +3,9 @@ import Content from '../Content';
 import Paragraph from '../Paragraph';
 import PicCard from '../PicCard';
 
-function About(props) {
+function About() {
   return (
-    <section ref={props.sectionRef} className='section-about mx-5'>
+    <section className='section-about mx-5'>
       <div className='row justify-content-evenly'>
         <Content
           classname='mb__large'
