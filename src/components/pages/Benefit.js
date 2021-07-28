@@ -12,28 +12,34 @@ function Benefit() {
     >
       <div className='row'>
         <div className='section-features--box'>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 fadeIn'>
             <TextCard
               icon='fas fa-globe'
               subtitle='Explore the world'
               text='Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aperiam, ipsum sapiente aspernatur.'
+              dataAos='fade-up'
+              dataDelay={300}
             />
           </div>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 fadeIn'>
             <TextCard
               icon='far fa-compass'
               subtitle='Meet nature'
               text='Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aperiam, ipsum sapiente aspernatur.'
+              dataAos='fade-up'
+              dataDelay={400}
             />
           </div>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 fadeIn'>
             <TextCard
               icon='fas fa-map-marker-alt'
               subtitle='Find your way'
               text='Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aperiam, ipsum sapiente aspernatur.'
+              dataAos='fade-up'
+              dataDelay={500}
             />
           </div>
         </div>
