@@ -6,7 +6,15 @@ function Paragraph(props) {
     props.contentType === 'content' ? 'p__content ' : 'p__title';
   const spaceing = props.spaceing === 'right' ? 'pr__medium' : 'pl__medium';
 
-  return <p className={`${contentType}${spaceing}`}>{props.content}</p>;
+  return (
+    <p
+      className={`${contentType}${spaceing}`}
+      data-aos={props.dataAos}
+      data-aos-delay={props.dataDelay}
+    >
+      {props.content}
+    </p>
+  );
 }
 
 export default Paragraph;

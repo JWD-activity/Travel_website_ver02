@@ -9,6 +9,8 @@ function PicCard(props) {
         className={`img__box ${classname}`}
         src={process.env.PUBLIC_URL + props.src}
         alt={props.alt}
+        data-aos={props.dataAos}
+        data-aos-delay={props.dataDelay}
       />
     </figure>
   );

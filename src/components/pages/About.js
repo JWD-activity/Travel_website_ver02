@@ -8,18 +8,22 @@ function About(props) {
     <section ref={props.sectionRef} className='section-about mx-5'>
       <div className='row justify-content-evenly'>
         <Content
-          classname='mb__large fadeIn'
+          classname='mb__large'
           heading='Exciting tours for adventurous people'
           sizes='secondary'
           align='center'
           initType={true}
+          dataAos='fade-up'
+          dataDelay=''
         />
-        <div className='col-lg-5 fadeIn'>
+        <div className='col-lg-5'>
           <Content
             heading={`You're going to fall in love with nature`}
             sizes='tertiary'
             align='left'
             initType={false}
+            dataAos='fade-up'
+            dataDelay={550}
           />
 
           <Paragraph
@@ -28,6 +32,8 @@ function About(props) {
                   Aperiam, ipsum sapiente aspernatur libero repellat quis
                   consequatur ducimus quam nisi exercitationem omnis earum qui.'
             spaceing='right'
+            dataAos='fade-up'
+            dataDelay={550}
           />
 
           <Content
@@ -35,6 +41,8 @@ function About(props) {
             sizes='tertiary'
             align='left'
             initType={false}
+            dataAos='fade-up'
+            dataDelay={550}
           />
 
           <Paragraph
@@ -43,18 +51,24 @@ function About(props) {
                   Aperiam, ipsum sapiente aspernatur libero repellat quis
                   consequatur ducimus quam nisi exercitationem omnis earum qui.'
             spaceing='right'
+            dataAos='fade-up'
+            dataDelay={300}
           />
         </div>
-        <div className='col-lg-5 position-relative fadeIn'>
+        <div className='col-lg-5 position-relative'>
           <PicCard
             src='/images/traveler03-medium.jpg'
             alt='Traveler in New Zealand'
             direction='right'
+            dataAos='fade-left'
+            dataDelay={400}
           />
           <PicCard
             src='/images/traveler02-medium.jpg'
             alt='Traveler in Tonariro National Park'
             direction='left'
+            dataAos='fade-left'
+            dataDelay={500}
           />
         </div>
       </div>

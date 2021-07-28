@@ -4,7 +4,11 @@ import './TextCard.css';
 
 function TextCard(props) {
   return (
-    <Card className='card__box text-center p-5'>
+    <Card
+      className='card__box text-center p-5'
+      data-aos={props.dataAos}
+      data-aos-delay={props.dataDelay}
+    >
       <Card.Body>
         <i className={`card__icon ${props.icon}`}></i>
         <Card.Title>{props.title}</Card.Title>
