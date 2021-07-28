@@ -1,5 +1,6 @@
 import React from 'react';
 import './Tours.css';
+import 
 function Tours() {
   return (
     <section className='section-tours'>
