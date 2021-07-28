@@ -13,3 +13,12 @@
 .section-features > * {
   transform: skewY(7deg);
 }
+
+.section-features--box {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 6.5rem 4.5rem;
+  row-gap: 1.5rem;
+}
