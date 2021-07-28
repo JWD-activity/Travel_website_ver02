@@ -1,0 +1,25 @@
+.section-about {
+  background-color: #f3f5f8;
+  margin-top: -25vh;
+  padding: 25rem 0 15rem 0;
+}
+
+.gallery__box {
+  position: relative;
+}
+
+.pic-card__box {
+  position: relative;
+}
+
+@media screen and (max-width: 990px) {
+  .section-about {
+    padding: 25rem 5rem 85rem 5rem;
+  }
+  /* .pic-card__box {
+    display: flex;
+  } */
+}
+
+@media screen and (max-width: 780px) {
+}

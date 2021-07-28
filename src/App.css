@@ -62,16 +62,6 @@ a:hover {
   color: #34d399;
 }
 
-.section-about {
-  background-color: #f3f5f8;
-  margin-top: -25vh;
-  padding: 25rem 0 15rem 0;
-}
-
-.gallery__box {
-  position: relative;
-}
-
 .mb__large {
   margin-bottom: 8rem;
 }

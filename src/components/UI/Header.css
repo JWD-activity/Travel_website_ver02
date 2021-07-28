@@ -39,3 +39,15 @@ header {
 .heading > span:last-child {
   animation: moveInRight 1s ease-out;
 }
+
+@media screen and (max-width: 990px) {
+  .heading {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .heading {
+    font-size: 4rem;
+  }
+}

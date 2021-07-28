@@ -2,7 +2,7 @@ import React from 'react';
 import Content from '../Content';
 import Paragraph from '../Paragraph';
 import PicCard from '../PicCard';
-
+import './About.css';
 function About() {
   return (
     <section className='section-about mx-5' id='about'>
@@ -55,21 +55,27 @@ function About() {
             dataDelay={300}
           />
         </div>
-        <div className='col-lg-5 position-relative'>
-          <PicCard
-            src='/images/traveler03-medium.jpg'
-            alt='Traveler in New Zealand'
-            direction='right'
-            dataAos='fade-left'
-            dataDelay={400}
-          />
-          <PicCard
-            src='/images/traveler02-medium.jpg'
-            alt='Traveler in Tonariro National Park'
-            direction='left'
-            dataAos='fade-left'
-            dataDelay={500}
-          />
+        <div className='col-lg-5'>
+          <div className='row pic-card__box'>
+            <div className='col'>
+              <PicCard
+                src='/images/traveler03-medium.jpg'
+                alt='Traveler in New Zealand'
+                direction='right'
+                dataAos='fade-left'
+                dataDelay={400}
+              />
+            </div>
+            <div className='col'>
+              <PicCard
+                src='/images/traveler02-medium.jpg'
+                alt='Traveler in Tonariro National Park'
+                direction='left'
+                dataAos='fade-left'
+                dataDelay={500}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
