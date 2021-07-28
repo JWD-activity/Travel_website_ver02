@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Travel_website_ver02/static/css/main.2d46eef6.chunk.css",
-    "main.js": "/Travel_website_ver02/static/js/main.dfca65c9.chunk.js",
-    "main.js.map": "/Travel_website_ver02/static/js/main.dfca65c9.chunk.js.map",
+    "main.js": "/Travel_website_ver02/static/js/main.f6c7c814.chunk.js",
+    "main.js.map": "/Travel_website_ver02/static/js/main.f6c7c814.chunk.js.map",
     "runtime-main.js": "/Travel_website_ver02/static/js/runtime-main.91880288.js",
     "runtime-main.js.map": "/Travel_website_ver02/static/js/runtime-main.91880288.js.map",
-    "static/css/2.4be38407.chunk.css": "/Travel_website_ver02/static/css/2.4be38407.chunk.css",
-    "static/js/2.f354191d.chunk.js": "/Travel_website_ver02/static/js/2.f354191d.chunk.js",
-    "static/js/2.f354191d.chunk.js.map": "/Travel_website_ver02/static/js/2.f354191d.chunk.js.map",
+    "static/css/2.0f711de9.chunk.css": "/Travel_website_ver02/static/css/2.0f711de9.chunk.css",
+    "static/js/2.8d12173d.chunk.js": "/Travel_website_ver02/static/js/2.8d12173d.chunk.js",
+    "static/js/2.8d12173d.chunk.js.map": "/Travel_website_ver02/static/js/2.8d12173d.chunk.js.map",
     "index.html": "/Travel_website_ver02/index.html",
-    "static/css/2.4be38407.chunk.css.map": "/Travel_website_ver02/static/css/2.4be38407.chunk.css.map",
+    "static/css/2.0f711de9.chunk.css.map": "/Travel_website_ver02/static/css/2.0f711de9.chunk.css.map",
     "static/css/main.2d46eef6.chunk.css.map": "/Travel_website_ver02/static/css/main.2d46eef6.chunk.css.map",
-    "static/js/2.f354191d.chunk.js.LICENSE.txt": "/Travel_website_ver02/static/js/2.f354191d.chunk.js.LICENSE.txt"
+    "static/js/2.8d12173d.chunk.js.LICENSE.txt": "/Travel_website_ver02/static/js/2.8d12173d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.91880288.js",
-    "static/css/2.4be38407.chunk.css",
-    "static/js/2.f354191d.chunk.js",
+    "static/css/2.0f711de9.chunk.css",
+    "static/js/2.8d12173d.chunk.js",
     "static/css/main.2d46eef6.chunk.css",
-    "static/js/main.dfca65c9.chunk.js"
+    "static/js/main.f6c7c814.chunk.js"
   ]
 }
