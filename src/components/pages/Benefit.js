@@ -6,6 +6,7 @@ function Benefit() {
   return (
     <section
       className='section-features mx-5'
+      id='benefits'
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/images/water.jpg')`,
       }}

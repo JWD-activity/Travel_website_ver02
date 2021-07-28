@@ -5,7 +5,7 @@ import Content from '../Content';
 
 function Tours() {
   return (
-    <section className='section-tours mx-5 '>
+    <section className='section-tours mx-5' id='tours'>
       <div className='d-grid'>
         <div className='row '>
           <Content

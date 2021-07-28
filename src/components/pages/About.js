@@ -5,7 +5,7 @@ import PicCard from '../PicCard';
 
 function About() {
   return (
-    <section className='section-about mx-5'>
+    <section className='section-about mx-5' id='about'>
       <div className='row justify-content-evenly'>
         <Content
           classname='mb__large'
