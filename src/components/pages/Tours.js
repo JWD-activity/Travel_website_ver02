@@ -1,11 +1,8 @@
 import React from 'react';
 import './Tours.css';
-<<<<<<< HEAD
-import 
-=======
 import TourItem from '../TourItem';
 import Content from '../Content';
->>>>>>> f7c8b6dc501ede4187ae38009d480edec02f23f9
+
 function Tours() {
   return (
     <section className='section-tours mx-5 '>
@@ -23,16 +20,28 @@ function Tours() {
 
           <div className='section__tours--box d-flex'>
             <div className='col-lg-4 p-3'>
-              <TourItem src='/images/Milford_sound.jpg' alt='Milford sound' />
+              <TourItem
+                src='/images/Milford_sound.jpg'
+                alt='Milford sound'
+                dataAos='fade-up'
+                dataDelay={300}
+              />
             </div>
             <div className='col-lg-4 p-3'>
               <TourItem
                 src='/images/Tongariro_National_Park.jpg'
                 alt='Tongariro National Park'
+                dataAos='fade-up'
+                dataDelay={300}
               />
             </div>
             <div className='col-lg-4 p-3'>
-              <TourItem src='/images/forest.jpg' alt='Forest' />
+              <TourItem
+                src='/images/forest.jpg'
+                alt='Forest'
+                dataAos='fade-up'
+                dataDelay={300}
+              />
             </div>
           </div>
         </div>
