@@ -20,6 +20,13 @@
   font-weight: 700;
 }
 
+.heading__fourth {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  letter-spacing: -0.1px;
+  font-weight: 600;
+}
+
 .heading__p {
   font-size: 2.5rem;
   font-weight: 800;

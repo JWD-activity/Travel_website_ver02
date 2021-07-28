@@ -25,6 +25,12 @@ function Tours() {
                 alt='Milford sound'
                 dataAos='fade-up'
                 dataDelay={300}
+                label_first='Milford Sound Explorer'
+                day='3 day tours'
+                number='Up to 30 people'
+                guide='2 tour guides'
+                acommodation='Sleep in cozy hotels'
+                difficulty='Difficulty: easy'
               />
             </div>
             <div className='col-lg-4 p-3'>
@@ -33,6 +39,12 @@ function Tours() {
                 alt='Tongariro National Park'
                 dataAos='fade-up'
                 dataDelay={300}
+                label_first='National Park Adventurer'
+                day='5 day tours'
+                number='Up to 15 people'
+                guide='3tour guides'
+                acommodation='Sleep in provided'
+                difficulty='Difficulty: hard'
               />
             </div>
             <div className='col-lg-4 p-3'>
@@ -41,6 +53,12 @@ function Tours() {
                 alt='Forest'
                 dataAos='fade-up'
                 dataDelay={300}
+                label_first='The Forest Hiker'
+                day='7 day tours'
+                number='Up to 40 people'
+                guide='6 tour guides'
+                acommodation='Sleep in provided tents'
+                difficulty='Difficulty: medium'
               />
             </div>
           </div>

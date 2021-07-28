@@ -18,7 +18,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <>
       <Header />
       <main>
         <About />
@@ -26,7 +26,7 @@ function Home() {
         <Tours />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 export default Home;
