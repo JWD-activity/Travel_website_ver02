@@ -1,6 +1,7 @@
 import { Card } from 'react-bootstrap';
 import React from 'react';
 import './TextCard.css';
+import Icon from './Icon';
 
 function TextCard(props) {
   return (
@@ -10,7 +11,7 @@ function TextCard(props) {
       data-aos-delay={props.dataDelay}
     >
       <Card.Body>
-        <i className={`card__icon ${props.icon}`}></i>
+        <Icon icon={props.icon} />
         <Card.Title>{props.title}</Card.Title>
         <Card.Subtitle className=' card__title'>{props.subtitle}</Card.Subtitle>
         <Card.Text className=' card__text'>{props.text}</Card.Text>

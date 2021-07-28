@@ -4,8 +4,6 @@ import Header from '../UI/Header';
 import Footer from '../UI/Footer';
 import Benefit from './Benefit';
 import Tours from './Tours';
-
-import gsap from 'gsap';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
