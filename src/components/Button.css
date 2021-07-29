@@ -1,4 +1,4 @@
-/* @keyframes moveInBottom {
+@keyframes moveInBottom {
   0% {
     opacity: 0;
     transform: translateY(3rem);
@@ -33,4 +33,4 @@
 .btn__fill:hover {
   background-color: #34d399;
   color: #fff;
-} */
+}

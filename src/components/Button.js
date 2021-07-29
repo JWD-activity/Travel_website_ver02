@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Button.css';
+import styles from './Button.module.css';
 
-function Button() {
+function Button(props) {
+  const classname = props.btnStyle === 'fill' ? 'fill-white' : '';
+
   return (
-    <Link className='text-uppercase btn__basic btn__fill animated ' to='/'>
-      Discover our tours
+    <Link to='/' className={`${styles['btn']} ${styles[classname]}`}>
+      {props.children}
     </Link>
   );
 }

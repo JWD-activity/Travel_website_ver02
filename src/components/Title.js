@@ -24,7 +24,7 @@ function Title(props) {
       return <h4 className={`${styles.h4}`}>{props.children}</h4>;
 
     default:
-      return <p className={`${styles['p_heading']}`}>{props.children}</p>;
+      return <h5 className={`${styles['p_heading']}`}>{props.children}</h5>;
   }
 }
 
