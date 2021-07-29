@@ -1,6 +1,5 @@
 import React from 'react';
 import './TourItem.css';
-import Content from './Content';
 import List from './List';
 import Label from './Label';
 

@@ -6,7 +6,7 @@ import Icon from './Icon';
 function TextCard(props) {
   return (
     <Card
-      className='card__box text-center p-5'
+      className='card__box text-center px-4 py-5'
       data-aos={props.dataAos}
       data-aos-delay={props.dataDelay}
     >

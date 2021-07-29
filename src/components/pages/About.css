@@ -16,9 +16,6 @@
   .section-about {
     padding: 25rem 5rem 85rem 5rem;
   }
-  /* .pic-card__box {
-    display: flex;
-  } */
 }
 
 @media screen and (max-width: 780px) {

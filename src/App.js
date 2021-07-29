@@ -2,16 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/Navbar';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  HashRouter,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Benefit from './components/pages/Benefit';
-import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
