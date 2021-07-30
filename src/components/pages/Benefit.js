@@ -9,7 +9,7 @@ function Benefit() {
   return (
     <section
       id='benefits'
-      className={`${styles['section-benefits']} mx-5`}
+      className={`${styles['section-benefits']}`}
       style={{
         backgroundImage: `url('${process.env.PUBLIC_URL}/images/water.jpg')`,
       }}
@@ -30,7 +30,7 @@ function Benefit() {
           </Cardbox>
         </div>
         <div className={`col-lg-3 col-md-6 p-3`}>
-          <Cardbox dataAos='fade-up'>
+          <Cardbox dataAos='fade-up' dataDelay={200}>
             <div className='row p-4 text-center'>
               <div className='my-4'>
                 <Icon icon='far fa-compass' />
@@ -45,7 +45,7 @@ function Benefit() {
           </Cardbox>
         </div>
         <div className={`col-lg-3 col-md-6 p-3`}>
-          <Cardbox dataAos='fade-up'>
+          <Cardbox dataAos='fade-up' dataDelay={300}>
             <div className='row p-4 text-center'>
               <div className='my-4'>
                 <Icon icon='fas fa-map-marker-alt' />
@@ -59,7 +59,7 @@ function Benefit() {
           </Cardbox>
         </div>
         <div className={`col-lg-3 col-md-6 p-3`}>
-          <Cardbox dataAos='fade-up'>
+          <Cardbox dataAos='fade-up' dataDelay={400}>
             <div className='row p-4 text-center'>
               <div className='my-4'>
                 <Icon icon='far fa-heart' />

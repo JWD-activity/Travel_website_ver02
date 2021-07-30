@@ -4,13 +4,15 @@
 }
 
 .section-benefits-box {
-  padding: 6.5rem 4.5rem;
+  padding: 8.5rem 4.5rem;
 }
 
 @media screen and (min-width: 990px) {
   .section-benefits {
     transform: skewY(-7deg);
     margin-top: -8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .section-benefits > * {
