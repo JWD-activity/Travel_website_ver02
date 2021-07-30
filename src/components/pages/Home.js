@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import About from './About';
 import Header from '../UI/Header';
+import Benefit from '../pages/Benefit';
 import Footer from '../UI/Footer';
-import Benefit from './Benefit';
 import Tours from './Tours';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
@@ -22,8 +22,7 @@ function Home() {
       <Header />
       <main>
         <About />
-        {/* <Benefit />
-        <Tours /> */}
+        <Benefit />
       </main>
       {/* <Footer /> */}
     </>

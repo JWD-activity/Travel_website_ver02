@@ -4,7 +4,7 @@ import styles from './Cardbox.module.css';
 function Cardbox(props) {
   return (
     <div
-      className={`col-sm-10 ${styles['card']}`}
+      className={`${styles['card']}`}
       data-aos={props.dataAos}
       data-aos-delay={props.dataDelay}
     >

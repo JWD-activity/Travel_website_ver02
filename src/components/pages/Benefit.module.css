@@ -1,0 +1,28 @@
+.section-benefits {
+  align-items: center;
+  background-size: cover;
+}
+
+.section-benefits-box {
+  padding: 6.5rem 4.5rem;
+}
+
+@media screen and (min-width: 990px) {
+  .section-benefits {
+    transform: skewY(-7deg);
+    margin-top: -8rem;
+  }
+
+  .section-benefits > * {
+    transform: skewY(7deg);
+  }
+
+  .section-benefits-box {
+    max-width: 114rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 15rem 4.5rem;
+    row-gap: 1.5rem;
+  }
+}
