@@ -1,6 +1,8 @@
 .section-benefits {
   align-items: center;
   background-size: cover;
+  margin-bottom: 8rem;
+  padding-bottom: 8rem;
 }
 
 .section-benefits-box {
@@ -13,6 +15,7 @@
     margin-top: -8rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    padding-bottom: 0;
   }
 
   .section-benefits > * {

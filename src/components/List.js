@@ -1,15 +1,30 @@
 import React from 'react';
-import './List.css';
+import styles from './List.module.css';
 
 function List(props) {
   return (
-    <div className='list'>
+    <div className={styles.li}>
       <ul>
-        <li>{props.day}</li>
-        <li>{props.number}</li>
-        <li>{props.guide}</li>
-        <li>{props.accommodation}</li>
-        <li>{props.difficulty}</li>
+        <li>
+          <i className={props.icon} />
+          {props.tour[0]['day']} day tours
+        </li>
+        <li>
+          <i className={props.icon} />
+          Up to {props.tour[0]['number']}people
+        </li>
+        <li>
+          <i className={props.icon} />
+          {props.tour[0]['guide']} tour guides
+        </li>
+        <li>
+          <i className={props.icon} />
+          {props.tour[0]['acommodation']}
+        </li>
+        <li>
+          <i className={props.icon} />
+          Difficulty:{props.tour[0]['difficulty']}
+        </li>
       </ul>
     </div>
   );

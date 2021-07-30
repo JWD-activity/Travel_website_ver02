@@ -3,10 +3,11 @@
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   letter-spacing: 1.2px;
   color: #fff;
+  padding: 0;
 }
 
 h2 {
@@ -36,7 +37,6 @@ h4 {
   font-weight: 600;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -46,32 +46,26 @@ h4,
 }
 
 @media screen and (min-width: 780px) {
-  h1,
   h2,
   h3,
   h4,
   .p_heading {
     padding: 1.5rem 4rem;
   }
-
-  h2 {
-    /* text-align: left; */
-  }
 }
 
 @media screen and (min-width: 990px) {
+  h1 {
+    font-size: 6rem;
+  }
+
   h2 {
     padding: 0 0 8rem 0;
   }
 
-  h1,
   h3,
   h4,
   .p_heading {
     padding: 0 0 3rem 0;
   }
 }
-
-/* @media screen and (max-width: 990px) {
- 
-} */

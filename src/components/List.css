@@ -1,9 +1,0 @@
-.list {
-  font-size: 1.6rem;
-  margin: 3rem auto;
-}
-
-.list > ul > li {
-  line-height: 5rem;
-  font-weight: 500;
-}

@@ -1,0 +1,10 @@
+li {
+  font-size: 1.6rem;
+  margin: 1rem auto;
+}
+
+li > i {
+  font-size: 2rem;
+  margin: 1rem;
+  color: #34d399;
+}

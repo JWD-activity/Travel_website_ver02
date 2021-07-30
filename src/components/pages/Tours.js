@@ -1,71 +1,89 @@
-// import React from 'react';
-// import './Tours.css';
-// import TourItem from '../TourItem';
-// import Content from '../Content';
+import React from 'react';
+import styles from './Tours.module.css';
+import Cardbox from '../Cardbox';
+import Picture from '../Picture';
+import Title from '../Title';
+import Label from '../Label';
+import List from '../List';
 
-// function Tours() {
-//   return (
-//     <section className='section-tours mx-5' id='tours'>
-//       <div className='d-grid'>
-//         <div className='row '>
-//           <Content
-//             classname='mb__large'
-//             heading='Most popular tours'
-//             sizes='secondary'
-//             align='center'
-//             initType={true}
-//             dataAos='fade-up'
-//             dataDelay=''
-//           />
+function Tours() {
+  const items = {
+    tour_1: [
+      {
+        day: 3,
+        number: 30,
+        guide: 2,
+        acommodation: 'Sleep in cozy hotels',
+        difficulty: 'easy',
+      },
+    ],
+    tour_2: [
+      {
+        day: 5,
+        number: 15,
+        guide: 3,
+        acommodation: 'Sleep in provided',
+        difficulty: 'hard',
+      },
+    ],
+    tour_3: [
+      {
+        day: 7,
+        number: 40,
+        guide: 6,
+        acommodation: 'Sleep in tents',
+        difficulty: 'medium',
+      },
+    ],
+  };
 
-//           <div className='section__tours--box d-flex'>
-//             <div className='col-lg-4 p-3'>
-//               <TourItem
-//                 src='/images/Milford_sound.jpg'
-//                 alt='Milford sound'
-//                 dataAos='fade-up'
-//                 dataDelay={300}
-//                 label_first='Milford Sound Explorer'
-//                 day='3 day tours'
-//                 number='Up to 30 people'
-//                 guide='2 tour guides'
-//                 acommodation='Sleep in cozy hotels'
-//                 difficulty='Difficulty: easy'
-//               />
-//             </div>
-//             <div className='col-lg-4 p-3'>
-//               <TourItem
-//                 src='/images/Tongariro_National_Park.jpg'
-//                 alt='Tongariro National Park'
-//                 dataAos='fade-up'
-//                 dataDelay={300}
-//                 label_first='National Park Adventurer'
-//                 day='5 day tours'
-//                 number='Up to 15 people'
-//                 guide='3tour guides'
-//                 acommodation='Sleep in provided'
-//                 difficulty='Difficulty: hard'
-//               />
-//             </div>
-//             <div className='col-lg-4 p-3'>
-//               <TourItem
-//                 src='/images/forest.jpg'
-//                 alt='Forest'
-//                 dataAos='fade-up'
-//                 dataDelay={300}
-//                 label_first='The Forest Hiker'
-//                 day='7 day tours'
-//                 number='Up to 40 people'
-//                 guide='6 tour guides'
-//                 acommodation='Sleep in provided tents'
-//                 difficulty='Difficulty: medium'
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
+  return (
+    <section className={`${styles['section-tours']}`} id='tours'>
+      <div className={`row ${styles['section-tours-box']}`}>
+        <div className='mb-3'>
+          <Title dataAos='fade-up' headingSize={2}>
+            Most popular tours
+          </Title>
+        </div>
+        <div
+          className={`${styles['sections-tours-group']} col-lg-3 col-md-4 col-sm-10`}
+        >
+          <Cardbox dataAos='fade-up' dataDelay={100}>
+            <Picture src='/images/Milford_sound.jpg' alt='Milford sound' />
+            <Label>Milford Sound Explorer</Label>
+            <div className='px-5 py-3'>
+              <List tour={items['tour_1']} icon={'fas fa-check-circle'} />
+            </div>
+          </Cardbox>
+        </div>
+        <div
+          className={`${styles['sections-tours-group']} col-lg-3 col-md-4 col-sm-10`}
+        >
+          <Cardbox dataAos='fade-up' dataDelay={200}>
+            <Picture
+              src='/images/Tongariro_National_Park.jpg'
+              alt='Tongariro National Park'
+            />
+            <Label>National Park</Label>
+            <div className='px-5 py-3'>
+              <List tour={items['tour_2']} icon={'fas fa-check-circle'} />
+            </div>
+          </Cardbox>
+        </div>
+        <div
+          className={`${styles['sections-tours-group']} col-lg-3 col-md-4 col-sm-10`}
+        >
+          <Cardbox dataAos='fade-up' dataDelay={300}>
+            <Picture src='/images/forest.jpg' alt='Forest' />
+            <Label>The Forest Hiker</Label>
+            <div className='px-5 py-3'>
+              <List tour={items['tour_3']} icon={'fas fa-check-circle'} />
+            </div>
+          </Cardbox>
+        </div>
+      </div>
+    </section>
+  );
+}
 
-// export default Tours;
+export default Tours;

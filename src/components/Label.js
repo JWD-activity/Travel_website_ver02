@@ -1,10 +1,11 @@
 import React from 'react';
-import './Label.css';
+import styles from './Label.module.css';
 function Label(props) {
   return (
-    <h3 className='title__label'>
-      <span>{props.label_first}</span>
-    </h3>
+    <h4 className={`${styles['title__label']}`}>
+      {props.children}
+      {/* <span>{props.label}</span> */}
+    </h4>
   );
 }
 

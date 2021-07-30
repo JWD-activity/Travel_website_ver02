@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import About from './About';
 import Header from '../UI/Header';
 import Benefit from '../pages/Benefit';
+import Tours from '../pages/Tours';
 import Footer from '../UI/Footer';
-import Tours from './Tours';
+
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
@@ -23,6 +24,7 @@ function Home() {
       <main>
         <About />
         <Benefit />
+        <Tours />
       </main>
       {/* <Footer /> */}
     </>

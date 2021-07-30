@@ -1,0 +1,31 @@
+.section-tours {
+  background-color: #f3f5f8;
+  margin-top: -16rem;
+  padding-bottom: 15rem;
+}
+
+.section-tours-box {
+  padding: 8rem 0;
+  margin-bottom: 3rem;
+}
+
+.sections-tours-group {
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
+@media screen and (min-width: 990px) {
+  .section-tours {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .section-tours-box {
+    padding-top: 23rem;
+    justify-content: center;
+  }
+
+  .sections-tours-group {
+    margin: 0;
+  }
+}
