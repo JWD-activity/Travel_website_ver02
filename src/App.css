@@ -33,15 +33,3 @@ a {
 a:hover {
   color: #34d399;
 }
-
-.mb__large {
-  margin-bottom: 8rem;
-}
-
-.mr__medium {
-  margin-right: 5.5rem;
-}
-
-.ml__medium {
-  margin-left: 5.5rem;
-}

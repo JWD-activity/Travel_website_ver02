@@ -5,8 +5,6 @@ p {
   margin-bottom: 3rem;
   overflow-wrap: break-word;
   padding: 0 2rem;
-  /* text-align: left; */
-  /* padding: 1.5rem; */
 }
 
 @media screen and (min-width: 780px) {

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css';
+import styles from './Footer.module.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <div className='row justify-content-between mx-5'>
         <div className='col-lg-5'>
           <h3 className='d-block'>
@@ -18,8 +18,8 @@ function Footer() {
           </p>
         </div>
         <div className='col-lg-5'>
-          <ul className='footer__icons d-flex flex-row-reverse gap-5'>
-            <li>
+          <ul className={`d-flex ${styles['footer-ul']}`}>
+            <li className={`${styles['footer-icon']} `}>
               <Link
                 to={{ pathname: 'https://www.facebook.com/' }}
                 target='_blank'
@@ -27,7 +27,7 @@ function Footer() {
                 <i className='fab fa-facebook-square' />
               </Link>
             </li>
-            <li>
+            <li className={`${styles['footer-icon']} `}>
               <Link
                 to={{ pathname: 'https://www.instagram.com/' }}
                 target='_blank'
@@ -35,7 +35,7 @@ function Footer() {
                 <i className='fab fa-instagram-square' />
               </Link>
             </li>
-            <li>
+            <li className={`${styles['footer-icon']} `}>
               <Link
                 to={{ pathname: 'https://twitter.com/?lang=en' }}
                 target='_blank'
@@ -45,11 +45,13 @@ function Footer() {
             </li>
           </ul>
 
-          <ul className='d-flex flex-column gap-4 text-end'>
-            <li>
+          <ul
+            className={`${styles['footer-ul']} d-flex flex-column gap-4 text-end`}
+          >
+            <li className={`${styles['footer-list']}`}>
               <Link to='/'>Terms of Use</Link>
             </li>
-            <li>
+            <li className={`${styles['footer-list']}`}>
               <Link to='/'>Privacy Policy</Link>
             </li>
           </ul>

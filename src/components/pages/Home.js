@@ -26,7 +26,7 @@ function Home() {
         <Benefit />
         <Tours />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

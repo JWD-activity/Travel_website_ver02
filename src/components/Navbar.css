@@ -27,14 +27,6 @@
   gap: 5.5rem;
   margin-bottom: 0;
   align-items: center;
-  /* display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
-  list-style: none;
-  text-align: center;
-  width: 60vw;
-  justify-content: end;
-  margin-right: 2rem; */
 }
 
 .navigation__list a,

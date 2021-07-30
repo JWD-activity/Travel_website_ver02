@@ -1,0 +1,21 @@
+footer {
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.63);
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 5rem 0;
+}
+
+.footer-icon {
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+.footer-list {
+  color: rgba(255, 255, 255, 0.63);
+  margin: 0;
+}
+
+.footer-ul {
+  flex-direction: row-reverse;
+}

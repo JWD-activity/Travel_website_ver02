@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,15 +32,10 @@ function Navbar() {
     <div className='navigation sticky-top'>
       <div className='navigation__box'>
         <nav className='navigation__nav'>
-          <HashLink
-            smooth
-            to={'/#'}
-            className='navigation__logo '
-            onClick={closeMobileMenu}
-          >
+          <Link to='/' className='navigation__logo ' onClick={closeMobileMenu}>
             Journey to Nature
             <i className='fab fa-typo3 ms-2' />
-          </HashLink>
+          </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -48,43 +43,40 @@ function Navbar() {
             className={click ? 'navigation__list active' : 'navigation__list'}
           >
             <li className='navigation__item'>
-              <HashLink
-                smooth
-                to={'/#about'}
+              <Link
+                to='/'
                 className='navigation__link active'
                 onClick={closeMobileMenu}
               >
                 About
-              </HashLink>
+              </Link>
             </li>
             <li className='navigation__item'>
-              <HashLink
-                smooth
-                to={'/#benefits'}
+              <Link
+                to='/'
                 className='navigation__link'
                 onClick={closeMobileMenu}
               >
-                Your benefits
-              </HashLink>
+                Your benfits
+              </Link>
             </li>
             <li className='navigation__item'>
-              <HashLink
-                smooth
-                to={'/#tours'}
+              <Link
+                to='/'
                 className='navigation__link'
                 onClick={closeMobileMenu}
               >
                 Popular tours
-              </HashLink>
+              </Link>
             </li>
             <li className='navigation__item'>
-              <HashLink
+              <Link
                 to='/'
                 className='navigation__link'
                 onClick={closeMobileMenu}
               >
                 Stories
-              </HashLink>
+              </Link>
             </li>
           </ul>
         </nav>
