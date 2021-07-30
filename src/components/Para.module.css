@@ -2,6 +2,22 @@ p {
   font-size: 2rem;
   font-size: 1.8rem;
   color: #627183;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   overflow-wrap: break-word;
+  padding: 0 2rem;
+  /* text-align: left; */
+  /* padding: 1.5rem; */
+}
+
+@media screen and (min-width: 780px) {
+  p {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  p {
+    padding: 0;
+    margin-bottom: 5rem;
+  }
 }
