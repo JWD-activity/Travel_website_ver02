@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { HashLink } from 'react-router-hash-link';
 
-function Navbar() {
+function Navbar(props) {
+  console.log(`visible: ${props.visible}`);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-
   const handleClick = () => {
     setClick(!click);
   };
@@ -29,9 +29,9 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
-    <div className='navigation sticky-top'>
+    <div className='navigation'>
       <div className='navigation__box'>
-        <nav className='navigation__nav'>
+        <nav className='navigation__nav' ref={props.currentRef}>
           <HashLink
             smooth
             to={'/#'}
@@ -51,8 +51,13 @@ function Navbar() {
               <HashLink
                 smooth
                 to={'/#about'}
-                className='navigation__link active'
-                onClick={closeMobileMenu}
+                className={`navigation__link ${
+                  props.visible === 'about' ? 'active' : ''
+                }`}
+                onClick={() => {
+                  closeMobileMenu();
+                  props.scrollTo(props.sectionRefs[0].ref.current);
+                }}
               >
                 About
               </HashLink>
@@ -61,8 +66,13 @@ function Navbar() {
               <HashLink
                 smooth
                 to={'/#benefits'}
-                className='navigation__link'
-                onClick={closeMobileMenu}
+                className={`navigation__link ${
+                  props.visible === 'benefits' ? 'active' : ''
+                }`}
+                onClick={() => {
+                  closeMobileMenu();
+                  props.scrollTo(props.sectionRefs[1].ref.current);
+                }}
               >
                 Your benefits
               </HashLink>
@@ -71,8 +81,13 @@ function Navbar() {
               <HashLink
                 smooth
                 to={'/#tours'}
-                className='navigation__link'
-                onClick={closeMobileMenu}
+                className={`navigation__link ${
+                  props.visible === 'tours' ? 'active' : ''
+                }`}
+                onClick={() => {
+                  closeMobileMenu();
+                  props.scrollTo(props.sectionRefs[2].ref.current);
+                }}
               >
                 Popular tours
               </HashLink>

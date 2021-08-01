@@ -6,7 +6,7 @@ import Title from '../Title';
 import Label from '../Label';
 import List from '../List';
 
-function Tours() {
+function Tours(props) {
   const items = {
     tour_1: [
       {
@@ -38,7 +38,11 @@ function Tours() {
   };
 
   return (
-    <section className={`${styles['section-tours']}`} id='tours'>
+    <section
+      ref={props.currentRef}
+      className={`${styles['section-tours']}`}
+      id='tours'
+    >
       <div className={`row ${styles['section-tours-box']}`}>
         <div className='mb-3'>
           <Title dataAos='fade-up' headingSize={2}>

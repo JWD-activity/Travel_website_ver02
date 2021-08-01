@@ -5,9 +5,10 @@ import Icon from '../Icon';
 import Title from '../Title';
 import Para from '../Para';
 
-function Benefit() {
+function Benefit(props) {
   return (
     <section
+      ref={props.currentRef}
       id='benefits'
       className={`${styles['section-benefits']}`}
       style={{

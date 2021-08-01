@@ -4,9 +4,9 @@ import React from 'react';
 import styles from './Header.module.css';
 import Title from '../Title';
 import Button from '../Button';
-function Header() {
+function Header(props) {
   return (
-    <header>
+    <header ref={props.currentRef}>
       <div
         className={`position-relative text-center ${styles['header-box']}`}
         style={{
@@ -35,7 +35,9 @@ function Header() {
             </Title>
           </span>
           <div className='my-5 pt-2'>
-            <Button btnStyle='fill'>Discover our tours</Button>
+            <Button btnStyle='fill' link='/#tours'>
+              Discover our tours
+            </Button>
           </div>
         </div>
       </div>

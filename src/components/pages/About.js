@@ -4,9 +4,13 @@ import Para from '../Para';
 import CardBox from '../Cardbox';
 import Picture from '../Picture';
 import styles from './About.module.css';
-function About() {
+function About(props) {
   return (
-    <section className={`section-about ${styles['section-about']}`} id='about'>
+    <section
+      ref={props.currentRef}
+      className={`section-about ${styles['section-about']}`}
+      id='about'
+    >
       <div className='row justify-content-evenly p-3'>
         <div className='col-xl-10 p-3'>
           <Title dataAos='fade-up' headingSize={2}>
