@@ -1,9 +1,8 @@
 import React from 'react';
-// import './Header.css';
-// import '../Button.css';
 import styles from './Header.module.css';
 import Title from '../Title';
 import Button from '../Button';
+
 function Header(props) {
   return (
     <header ref={props.currentRef}>

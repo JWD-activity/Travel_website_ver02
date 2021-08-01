@@ -3,17 +3,18 @@ import './Navbar.css';
 import { HashLink } from 'react-router-hash-link';
 
 function Navbar(props) {
-  console.log(`visible: ${props.visible}`);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const handleClick = () => {
     setClick(!click);
   };
 
+  // closing hambug menu
   const closeMobileMenu = () => {
     setClick(false);
   };
 
+  // display hambug menu
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -26,6 +27,7 @@ function Navbar(props) {
     showButton();
   }, []);
 
+  // screen resize event handler
   window.addEventListener('resize', showButton);
 
   return (

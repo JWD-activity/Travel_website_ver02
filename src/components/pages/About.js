@@ -4,6 +4,7 @@ import Para from '../Para';
 import CardBox from '../Cardbox';
 import Picture from '../Picture';
 import styles from './About.module.css';
+
 function About(props) {
   return (
     <section

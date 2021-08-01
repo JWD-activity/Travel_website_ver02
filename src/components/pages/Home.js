@@ -10,9 +10,10 @@ import Footer from '../UI/Footer';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
-const getDimensions = (ele) => {
-  const { height } = ele.getBoundingClientRect();
-  const offsetTop = ele.offsetTop;
+// getting current viewed section
+const getDimensions = (element) => {
+  const { height } = element.getBoundingClientRect();
+  const offsetTop = element.offsetTop;
   const offsetBottom = offsetTop + height;
   return {
     height,
@@ -21,8 +22,9 @@ const getDimensions = (ele) => {
   };
 };
 
-const scrollTo = (ele) => {
-  ele.scrollIntoView({
+// scroll to viewed section
+const scrollTo = (element) => {
+  element.scrollIntoView({
     behavior: 'smooth',
     block: 'start',
   });
@@ -44,6 +46,7 @@ function Home() {
   ];
 
   useEffect(() => {
+    // init setting for element's motion
     Aos.init({
       offset: 50,
       duration: 1000,
@@ -55,11 +58,11 @@ function Home() {
       // getiign position
       const { height: headerHeight } = getDimensions(headerRef.current);
       const scrollPosition = window.scrollY + headerHeight;
-
+      // finding current selected section
       const selected = sectionRefs.find(({ section, ref }) => {
-        const ele = ref.current;
-        if (ele) {
-          const { offsetBottom, offsetTop } = getDimensions(ele);
+        const element = ref.current;
+        if (element) {
+          const { offsetBottom, offsetTop } = getDimensions(element);
           return scrollPosition > offsetTop && scrollPosition < offsetBottom;
         }
       });
@@ -76,15 +79,6 @@ function Home() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [visibleSection]);
-
-  // useEffect(() => {
-  //   Aos.init({
-  //     offset: 50,
-  //     duration: 1000,
-  //     easing: 'ease-out-cubic',
-  //     delay: 100,
-  //   });
-  // }, []);
 
   return (
     <>
