@@ -11,9 +11,9 @@ function Benefit(props) {
       ref={props.currentRef}
       id='benefits'
       className={`${styles['section-benefits']}`}
-      style={{
-        backgroundImage: `url('${process.env.PUBLIC_URL}/images/water.jpg')`,
-      }}
+      // style={{
+      //   backgroundImage: `url('${process.env.PUBLIC_URL}/images/water.jpg')`,
+      // }}
     >
       <div className={`${styles['section-benefits-box']} row `}>
         <div className={`col-lg-3 col-md-6 p-3`}>

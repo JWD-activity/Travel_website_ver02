@@ -8,9 +8,9 @@ function Header(props) {
     <header ref={props.currentRef}>
       <div
         className={`position-relative text-center ${styles['header-box']}`}
-        style={{
-          backgroundImage: `url('${process.env.PUBLIC_URL}/images/bg-1.jpg')`,
-        }}
+        // style={{
+        //   backgroundImage: `url('${process.env.PUBLIC_URL}/images/bg-1.jpg')`,
+        // }}
       >
         <div className={`${styles['header-title-box']}`}>
           <span>

@@ -1,4 +1,5 @@
 .section-benefits {
+  background-image: url('../../assets/img/water-small.jpg');
   align-items: center;
   background-size: cover;
   margin-bottom: 8rem;
@@ -7,6 +8,12 @@
 
 .section-benefits-box {
   padding: 8.5rem 4.5rem;
+}
+
+@media (min-resolution: 192dpi) and (min-width: 600px) {
+  .section-benefits {
+    background-image: url('../../assets/img/water.jpg');
+  }
 }
 
 @media screen and (min-width: 990px) {
