@@ -43,6 +43,9 @@
   color: #fff;
 }
 
+.navigation__link:hover {
+  color: #34d399;
+}
 .navigation__link.active {
   border-bottom: 12px solid #34d399;
 }
