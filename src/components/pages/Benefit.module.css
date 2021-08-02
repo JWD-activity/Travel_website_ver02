@@ -38,3 +38,9 @@
     row-gap: 1.5rem;
   }
 }
+
+@media screen and (max-width: 660px) {
+  .section-benefits {
+    background-image: linear-gradient(#0c2329, #4d726b);
+  }
+}
