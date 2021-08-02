@@ -5,18 +5,18 @@
   height: 100vh;
 }
 
-@media (min-resolution: 192dpi) and (min-width: 600px) {
-  .header-box {
-    background-image: url('../../assets/img/bg-1.png');
-  }
-}
-
 .header-title-box {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 100%;
+}
+
+@media (min-resolution: 192dpi) and (min-width: 600px) {
+  .header-box {
+    background-image: url('../../assets/img/bg-1.png');
+  }
 }
 
 @media screen and (min-width: 990px) {
