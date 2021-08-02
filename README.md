@@ -13,7 +13,7 @@
 
 ## Description
 #### Project Purpose
-- A single travel blog-type web page was created to practice React's **components, CSS module stylesheets, props, conditional rendering, hooks, and event handling**.
+- A single travel blog-type web page, created to practice React's **components, CSS module stylesheets, props, conditional rendering, hooks, and event handling**.
 
 #### The challenging part
 - Implementing a menu that automatically highlights when the user scrolls through each section were challenging. but I implemented this by referring to https://codedaily.io/tutorials/Sticky-Header-with-Highlighting-Sections-on-Scroll, https://codesandbox.io/s/github/codedailyio/StickyHeaderSections through a web search.
