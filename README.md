@@ -10,10 +10,6 @@
   - **react-router-hash-link** https://www.npmjs.com/package/react-router-hash-link
   - **aos** https://www.npmjs.com/package/aos
   - **gh-pages**  https://www.npmjs.com/package/gh-pages
-- Reference
-  - **React Formik Tutorial** https://www.youtube.com/watch?v=a94FOvaBomQ&list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu&index=1
-  - **Simple React Pagination Using React Hooks** https://www.youtube.com/watch?v=8Gmi1NNPtB8
-  - **React Context & Hooks Tutorial** https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI
 
 ## Description
 #### Project Purpose
